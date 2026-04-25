@@ -3,41 +3,59 @@
 <head>
     <title>Lab1 - My Favorite Fruits</title>
     <style>
-        body {
-            background: #1e1e2f;
-            color: #ffffff;
-            font-family: Arial;
-            padding: 40px;
-        }
+body{
+    background:#fafafa;
+    color:#222;
+    font-family:Arial,sans-serif;
+    padding:50px;
+}
 
-        .container {
-            max-width: 500px;
-            margin: auto;
-        }
+.container{
+    max-width:520px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:14px;
+    box-shadow:0 4px 12px rgba(0,0,0,.05);
+}
 
-        input, button {
-            width: 100%;
-            padding: 10px;
-            margin: 5px 0;
-            border: none;
-            border-radius: 5px;
-        }
+h1{
+    text-align:center;
+    font-weight:300;
+    margin-bottom:30px;
+}
 
-        input {
-            background: #2c2c3e;
-            color: white;
-        }
+input,button{
+    width:100%;
+    padding:13px;
+    margin:8px 0;
+    border-radius:8px;
+    font-size:15px;
+}
 
-        button {
-            background: #4CAF50;
-            color: white;
-            cursor: pointer;
-        }
+input{
+    border:1px solid #ddd;
+    background:#fff;
+}
 
-        ul {
-            margin-top: 20px;
-        }
-    </style>
+button{
+    background:#111;
+    color:white;
+    border:none;
+}
+
+button:hover{
+    opacity:.9;
+}
+
+ul{
+    margin-top:25px;
+}
+
+li{
+    margin:8px 0;
+}
+</style>
 </head>
 <body>
 
