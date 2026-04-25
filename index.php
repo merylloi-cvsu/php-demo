@@ -4,53 +4,60 @@
     <title>PHP Labs</title>
 
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #121212;
-            color: #ffffff;
-        }
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f7f7f7;
+    color:#222;
+}
 
-        .container {
-            text-align: center;
-            padding: 80px 20px;
-        }
+.container{
+    text-align:center;
+    padding:90px 20px;
+}
 
-        h1 {
-            margin-bottom: 40px;
-        }
+h1{
+    font-size:40px;
+    font-weight:300;
+    margin-bottom:50px;
+    letter-spacing:1px;
+}
 
-        .nav {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
+.nav{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
 
-        .card {
-            background: #1f1f1f;
-            padding: 25px;
-            width: 220px;
-            border-radius: 10px;
-            text-decoration: none;
-            color: white;
-            transition: 0.2s;
-        }
+.card{
+    background:#ffffff;
+    width:220px;
+    padding:35px 25px;
+    border-radius:12px;
+    text-decoration:none;
+    color:#222;
+    border:1px solid #e5e5e5;
+    box-shadow:0 2px 8px rgba(0,0,0,.04);
+    transition:.2s;
+}
 
-        .card:hover {
-            background: #2c2c2c;
-            transform: translateY(-5px);
-        }
+.card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 5px 14px rgba(0,0,0,.08);
+}
 
-        .card h2 {
-            margin: 10px 0;
-        }
+.card h2{
+    margin-bottom:12px;
+    font-weight:500;
+}
 
-        .card p {
-            font-size: 14px;
-            color: #ccc;
-        }
-    </style>
+.card p{
+    color:#666;
+    font-size:14px;
+    line-height:1.5;
+}
+</style>
 </head>
 
 <body>
