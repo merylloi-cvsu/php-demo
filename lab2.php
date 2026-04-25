@@ -2,38 +2,51 @@
 <html>
 <head>
     <title>Lab 2 - Temperature Converter</title>
-    <style>
-        body {
-            background: #121212;
-            color: #fff;
-            font-family: Arial;
-            padding: 40px;
-        }
+<style>
+body{
+    background:#f8f8f8;
+    color:#222;
+    font-family:Arial,sans-serif;
+    padding:50px;
+}
 
-        .box {
-            max-width: 400px;
-            margin: auto;
-        }
+.box{
+    max-width:430px;
+    margin:auto;
+    background:#fff;
+    padding:40px;
+    border-radius:14px;
+    box-shadow:0 4px 12px rgba(0,0,0,.05);
+}
 
-        input, button {
-            padding: 10px;
-            width: 100%;
-            margin: 5px 0;
-            border-radius: 5px;
-            border: none;
-        }
+h1{
+    text-align:center;
+    font-weight:300;
+    margin-bottom:30px;
+}
 
-        input {
-            background: #2a2a2a;
-            color: white;
-        }
+input,button{
+    width:100%;
+    padding:13px;
+    margin:10px 0;
+    border-radius:8px;
+    font-size:15px;
+}
 
-        button {
-            background: #2196F3;
-            color: white;
-            cursor: pointer;
-        }
-    </style>
+input{
+    border:1px solid #ddd;
+}
+
+button{
+    background:#111;
+    color:white;
+    border:none;
+}
+
+button:hover{
+    opacity:.9;
+}
+</style>
 </head>
 <body>
 
