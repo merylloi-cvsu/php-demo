@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lab 1 - My Favorite Fruits</title>
+    <title>Lab1 - My Favorite Fruits</title>
     <style>
         body {
             background: #1e1e2f;
