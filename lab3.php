@@ -2,44 +2,60 @@
 <html>
 <head>
     <title>Lab 3 - ATM Simulation</title>
-    <style>
-        body {
-            background: #181818;
-            color: #fff;
-            font-family: Arial;
-            padding: 40px;
-        }
+<style>
+body{
+    background:#f6f6f6;
+    color:#222;
+    font-family:Arial,sans-serif;
+    padding:50px;
+}
 
-        .atm {
-            max-width: 450px;
-            margin: auto;
-        }
+.atm{
+    max-width:480px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:14px;
+    box-shadow:0 4px 12px rgba(0,0,0,.05);
+}
 
-        input, select, button {
-            width: 100%;
-            padding: 10px;
-            margin: 5px 0;
-            border-radius: 5px;
-            border: none;
-        }
+h1{
+    text-align:center;
+    font-weight:300;
+    margin-bottom:30px;
+}
 
-        input, select {
-            background: #2c2c2c;
-            color: white;
-        }
+input,select,button{
+    width:100%;
+    padding:13px;
+    margin:8px 0;
+    border-radius:8px;
+    font-size:15px;
+}
 
-        button {
-            background: #ff9800;
-            color: white;
-            cursor: pointer;
-        }
+input,select{
+    border:1px solid #ddd;
+    background:#fff;
+}
 
-        .result {
-            margin-top: 20px;
-            padding: 10px;
-            background: #2c2c2c;
-        }
-    </style>
+button{
+    background:#111;
+    color:white;
+    border:none;
+}
+
+button:hover{
+    opacity:.9;
+}
+
+.result{
+    margin-top:25px;
+    padding:20px;
+    background:#fafafa;
+    border:1px solid #eee;
+    border-radius:10px;
+}
+</style>
 </head>
 <body>
 
